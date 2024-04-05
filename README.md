@@ -30,10 +30,12 @@ A Next.js-powered frontend for a mail client, demonstrating efficient handling o
     * **Inbox:** http://localhost:3000/
     * **View Mail:** http://localhost:3000/mail/[id]
     * **Compose:** http://localhost:3000/mail/compose
-* **Rich Teext Editing:** Draft.js based rich texxt editor for composing emails.
-* **Tailwind CSS:** Styling for clean and modern visual design.
+* **Rich Teext Editing:** Draft.js based rich texxt editor for composing emails
+* **Tailwind CSS:** Styling for clean and modern visual design
 * **Framer Motion** Smooth animations using framer-motion library.
 
 **Notes**
-* Currently utilizes dummy data from [utils/database.json](utils/database.json).
-* Some rich text editor functionalities are still under development.
+* Currently utilizes dummy data from [utils/database.json](utils/database.json)
+* Some rich text editor functionalities are still under development
+* Link to site: [https://summer-project-navy.vercel.app/](https://summer-project-navy.vercel.app/) 
+    * The site uses text area html element instead of the rich text editor due to an issue during building. To see the rich text editor follow the preceding steps.

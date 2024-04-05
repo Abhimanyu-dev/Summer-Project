@@ -13,6 +13,8 @@ export default function Page({params}){
                 <input type="text" className='outline-none px-2 mx-2 w-[80%] font-bold'/>
             </div>
             <RichEditor />
+            {/* <textarea name="" id="" cols="30" rows="10" className='w-full outline-none rounded-[20px] h-[70%] m-2 p-3'></textarea> */}
+            {/* textarea is only for production becuase the RichEditor gives a ReferenceError */}
             <button type="button" className="outline_btn right-4 bottom-4 absolute">Send</button>
         </MotionDiv>
     )
